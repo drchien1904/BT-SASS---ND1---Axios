@@ -37,33 +37,17 @@ function display(users) {
   for (var i = 0; i < users.length; i++) {
     var user = users[i];
     html += `
-    <div class="photo1">
-    <img src="./image/teacher_1.jpg" alt="" />
-    <p>ILALIAN</p>
-    <h1>July Roberts</h1>
+    <div class="col-3">
+    <img src="/image/${user.hinhAnh} alt="" />
+    <p>${user.ngonNgu}</p>
+    <h1>${user.hoTen}</h1>
     <h5>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero,
+      ${user.moTa}
          
     </h5>
   </div>
-          <button
-            class="btn btn-primary"
-            data-toggle="modal"
-            data-target="#myModal"
-            data-type="update"
-            data-id="${user.id}"
-          >
-            Cập Nhật
-          </button>
-          <button
-            class="btn btn-danger"
-            data-type="delete"
-            data-id="${user.id}"
-          >
-            Xoá
-          </button>
-        </td>
-      </tr>
+         
+        
     `;
   }
   // DOM tới tbody và innerHTML bằng biến html
