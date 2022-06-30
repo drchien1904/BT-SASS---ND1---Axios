@@ -1,0 +1,13 @@
+.col-thumb {
+    display: flex;
+    flex-wrap: wrap;
+    .photo1 {
+        width: 25%;
+        padding: 15px;
+        background: #dcd1f0;
+        img {
+            width: 100%;
+        }
+    }
+}
+

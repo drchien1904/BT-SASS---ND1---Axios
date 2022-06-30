@@ -1,0 +1,24 @@
+// Các file scsss có dấu _ phía trước tên file sẽ đc bỏ qua khi compile từ scss -> css
+//Import tất cả những file scss vào đây
+//==> Khi compile từ scsss ->css ta sẽ nhận đc 1 file css duy nhất
+
+//Helpers
+@import "./Helpers/variables";
+@import "./Helpers/mixin";
+
+//vendors
+
+//Base
+@import "./Base/reset";
+
+//Component
+@import "./components/button";
+
+@import "./components/card";
+
+//layout
+@import "./layouts/carousel";
+@import "./layouts/footer";
+@import "./layouts/header";
+@import "./layouts/product";
+
