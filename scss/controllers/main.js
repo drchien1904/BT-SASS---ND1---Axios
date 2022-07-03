@@ -38,7 +38,7 @@ function display(users) {
     var user = users[i];
     html += `
     <div class="col-3">
-    <img src="/image/${user.hinhAnh} alt="" />
+    <img src="${user.hinhAnh}" alt="" />
     <p>${user.ngonNgu}</p>
     <h1>${user.hoTen}</h1>
     <h5>

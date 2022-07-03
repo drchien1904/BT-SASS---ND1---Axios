@@ -1,6 +1,8 @@
 var baseUrl = "https://62b83a23f4cb8d63df5a80cd.mockapi.io/users";
 // Hàm call API lấy danh sách người dùng
 function apiGetUsers(search) {
+  console.log("NHRHRHNHRNRNG");
+
   return axios({
     url: baseUrl,
     method: "GET",
@@ -9,4 +11,3 @@ function apiGetUsers(search) {
     },
   });
 }
-console.log(baseUrl);

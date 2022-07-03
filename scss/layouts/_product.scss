@@ -11,3 +11,13 @@
     }
 }
 
+section.fortolio {
+    display: flex;
+    flex-wrap: wrap;
+    &>div{
+        margin: 10px 0;
+    }
+    img {
+        width: 100%;
+    }
+}

@@ -157,4 +157,15 @@
 }
 .col-thumb .photo1 img {
   width: 100%;
+}
+
+section.fortolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+section.fortolio > div {
+  margin: 10px 0;
+}
+section.fortolio img {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
